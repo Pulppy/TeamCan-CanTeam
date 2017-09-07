@@ -4,23 +4,27 @@ public with sharing class AccountDetailSelect {
 	public AccountDetailSelect() {
 		accObj = getAcc();
 	}
-
+	//get list acc
 	public List<Account> getAcc(){
 		List<Account> acc = [Select Id, Name from Account];
 		return acc;
 	}
+	//get list acc
 	public List<Account> getAcc1(){
 		List<Account> acc = [Select Id, Name from Account];
 		return acc;
 	}
+	//get list acc
 	public List<Account> getAcc2(){
 		List<Account> acc = [Select Id, Name from Account];
 		return acc;
 	}
+	//get list acc
 	public List<Account> getAcc3(){
 		List<Account> acc = [Select Id, Name from Account];
 		return acc;
 	}
+	//get list acc
 	public List<Account> getAcc4(){
 		List<Account> acc = [Select Id, Name from Account];
 		return acc;
