@@ -6,27 +6,27 @@ public with sharing class AccountDetailSelect {
 	}
 	//get list acc
 	public List<Account> getAcc(){
-		List<Account> acc = [Select Id, Name from Account];
+		List<Account> acc = [Select Id, Name from Account Limit 10];
 		return acc;
 	}
 	//get list acc
 	public List<Account> getAcc1(){
-		List<Account> acc = [Select Id, Name from Account];
+		List<Account> acc = [Select Id, Name from Account Limit 10];
 		return acc;
 	}
 	//get list acc
 	public List<Account> getAcc2(){
-		List<Account> acc = [Select Id, Name from Account];
+		List<Account> acc = [Select Id, Name from Account Limit 10];
 		return acc;
 	}
 	//get list acc
 	public List<Account> getAcc3(){
-		List<Account> acc = [Select Id, Name from Account];
+		List<Account> acc = [Select Id, Name from Account Limit 10];
 		return acc;
 	}
 	//get list acc
 	public List<Account> getAcc4(){
-		List<Account> acc = [Select Id, Name from Account];
+		List<Account> acc = [Select Id, Name from Account Limit 10];
 		return acc;
 	}
 	public List<Account> getAcc5(){
