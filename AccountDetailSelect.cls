@@ -30,14 +30,17 @@ public with sharing class AccountDetailSelect {
 		return acc;
 	}
 	public List<Account> getAcc6(){
+		/*Khoi Edit CHange Start*/
 		List<Account> acc = [Select Id, Name from Account];
 		return acc;
 	}
 	public List<Account> getAcc7(){
+		/*Khoi Edit CHange Start*/
 		List<Account> acc = [Select Id, Name from Account];
 		return acc;
 	}
 	public List<Account> getAcc8(){
+		/*Khoi Edit CHange Start*/
 		List<Account> acc = [Select Id, Name from Account];
 		return acc;
 	}
