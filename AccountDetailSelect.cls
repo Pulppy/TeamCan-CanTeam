@@ -16,7 +16,7 @@ public with sharing class AccountDetailSelect {
 	}
 	//get list acc
 	public List<Account> getAcc2(){
-		List<Account> acc = [Select Id, Name from Account];
+		List<Account> acc = [Select Id, Name from Account limit 2];
 		return acc;
 	}
 	//get list acc
@@ -26,16 +26,16 @@ public with sharing class AccountDetailSelect {
 	}
 	//get list acc
 	public List<Account> getAcc4(){
-		List<Account> acc = [Select Id, Name from Account];
+		List<Account> acc = [Select Id, Name from Account limit 4];
 		return acc;
 	}
 	public List<Account> getAcc5(){
-		List<Account> acc = [Select Id, Name from Account];
+		List<Account> acc = [Select Id, Name from Account Limit 5];
 		return acc;
 	}
 	public List<Account> getAcc6(){
 		/*Khoi Edit CHange Start*/
-		List<Account> acc = [Select Id, Name from Account];
+		List<Account> acc = [Select Id, Name from Account limit 6];
 		return acc;
 	}
 	public List<Account> getAcc7(){
