@@ -1,5 +1,4 @@
-public with sharing class AccountDetailSelect {
-	// Test comit two file
+public with sharing class AccountDetailSelect { 
 	
 	public List<Account> accObj;
 	public AccountDetailSelect() {
