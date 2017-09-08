@@ -1,5 +1,5 @@
 public with sharing class AccountDetailSelect { 
- 	//# fix bug 13
+ 	// Dev Fix 17
 	public List<Account> accObj;
 	public AccountDetailSelect() {
 		accObj = getAcc();
