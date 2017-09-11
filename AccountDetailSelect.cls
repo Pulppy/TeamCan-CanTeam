@@ -47,4 +47,5 @@ public with sharing class AccountDetailSelect {
 		lstObj = getAcc8();
 		lstObj.get(0);
 	}
+	---
 }
