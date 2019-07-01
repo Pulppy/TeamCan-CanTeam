@@ -4,7 +4,8 @@ public with sharing class ChatterHelper {
   public static String getChatterGroups(String imageUrl, String chatterText) {
 
     String fileName = 'giphy.gif';
-    String body = chatterText_TEST_BRANCH_FINAL;
+	// Doremon
+    String body = 'chatterText_TEST_BRANCH_FINAL';
     
     Blob imageData = getImageData(imageUrl);
 
